@@ -180,7 +180,7 @@ let sumatotal=suma()
 
 preciofinal.innerText= ("Precio Aproximado:") + sumatotal + ("€")
 letrachica.innerText= ("El precio es estimativo y en condiciones ideales de reforma. Incluye instalación de cerámicas de suelo y paredes")
-          
+alert ("Precio Estimativo final es " + sumatotal + "€")          
 console.log (totalelectro)
 console.log (sumatotal)
         
