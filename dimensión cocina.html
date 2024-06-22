@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valora tu reforma</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script defer src="js/dom.js"></script>
+    
+</head>
+<body>
+<div class="estructura">
+    <div class="logo"> <img src="images/logoleroy.jpg" alt=""></div>  
+    
+    <div class="tarjetadimensiones"> 
+        <div><img src="images/dimension.jpg" alt=""></div>
+        <div class="card-title"><p>DIMENSIONES DE LA ESTANCIA</p></div>
+        <input  type="text" name="ancho" id="cocinaancho" placeholder="Ingresa ANCHO en metros">
+        <input  type="text" name="largo" id="cocinalargo" placeholder="Ingresa LONGITUD en metros">
+    
+    </div>
+
+    <div class="tarjetadimensiones"><img src="images/mueblecoc.jpg" alt="">
+        <div class="card-title"><p>DISTRIBUCIÓN DE TU COCINA</p></div>
+
+        <div class="tarjetadistri">
+            <div class="confi"> <img src="images/Lineal.jpg" alt="">
+            <div class="card-title"></div>
+            <input type="radio" name="mueble" value="linear" id="buttonlinear">
+            <label for="buttonlinear">Linear</label>
+            </div>    
+        
+             <div class="confi"><img src="images/enele.jpg" alt="">
+            <div class="card-title"></div>
+            <input type="radio" name="mueble" value="linear2" id="buttonenele">
+            <label for="buttonenele">En "L"</label>
+            </div>
+
+            <div class="confi"><img src="images/enu.jpg" alt="">
+            <div class="card-title"></div>
+            <input type="radio" name="mueble" value="linear3" id="buttonenu"> 
+            <label for="buttonenu">En "U"</label>
+            </div>
+        
+        </div>
+    </div>
+
+    <div class="tarjetadimensiones"><img src="images/mueblescocina.jpg" alt="">
+        <div class="card-title"><p>MUEBLES DE COCINA</p></div>
+
+        <div class="tarjetadistri">
+            <div class="confi"> <img src="images/Sevilla.jpg" alt="">
+            <div class="card-title"></div>
+            <input type="radio" name="calidad" value="linear" id="standard">
+            <label for="buttonlinear">Calidad Standar</label>
+            </div>    
+        
+             <div class="confi"><img src="images/Soho.jpg" alt="">
+            <div class="card-title"></div>
+            <input type="radio" name="calidad" value="linear2" id="premium">
+            <label for="buttonenele">Calidad Premium</label>
+            </div>        
+        </div>
+    </div>
+
+
+    <div class="tarjetadimensiones"> <img src="images/Encimera.jpg" alt="">
+        <div class="card-title"><p>QUÉ ENCIMERA ESCOGERÍAS?</p></div>
+
+        <div class="tarjetadistri">
+            <div class="confi"><img src="images/granitoimp.jpg" alt="">
+            <div class="card-title"></div>
+            <input type="radio" name="ENCIMERA" value="linear3" id="laminada"> 
+            <label for="laminada">Granito Importado</label>
+            </div>    
+        
+             <div class="confi"><img src="images/granitonac.jpg" alt="">
+            <div class="card-title"></div>
+            <input type="radio" name="ENCIMERA" value="linear3" id="granitonacional"> 
+            <label for="granitonacional">Granito nacional</label>
+            </div>
+
+            <div class="confi"><img src="images/dekton.jpg" alt="">
+            <div class="card-title"></div>
+            <input type="radio" name="ENCIMERA" value="linear3" id="dekton"> 
+            <label for="dekton">Dekton</label>
+            </div>
+        
+        </div>
+    </div>
+
+    <div class="tarjetadimensiones">
+        <div><h1>🍎</h1></div>
+        <div class="card-title"><p>NECESITAS ELECTRODOMESTICOS?</p></div>
+            <div class="electrodomesticos">
+        <label for=""><input type="checkbox" name="Nevera" id="checkbox" value="650" >Nevera</label>
+        <label for=""><input type="checkbox" name="Lavavajillas" id="checkbox" value="400">Lavavajillas</label>
+        <label for=""><input type="checkbox" name="Horno" id="checkbox" value=450>Horno</label>
+        <label for=""><input type="checkbox" name="Placa a Gas" id="checkbox"value=300>Placa a Gas</label>
+        <label for=""><input type="checkbox" name="Placa eléctrica o Inducción" id="checkbox"value=300>Placa eléctrica / Inducción</label>
+        <label for=""><input type="checkbox" name="Microondas" id="checkbox" value=160>Microondas</label>
+        <label for=""><input type="checkbox" name="Caldera" id="checkbox" value=1600>Caldera</label>
+        <label for=""><input type="checkbox" name="Calentador" id="checkbox"value=460>Calentador</label>
+
+            </div>
+    </div>
+
+    <div class="tarjetadimensiones">
+        <div><h1>🍎</h1></div>
+        <div class="card-title"><p>CAMBIAS FALSO TECHO?</p></div>
+            <div class="falsotecho">
+            <label for=""><input type="checkbox" name="Horno" id="checkboxfalso"></label>
+        </div>
+    </div>
+ 
+    <button id="buttoncalcular" class="button button-outline" title="COCINA">Calcular</button>
+    
+    <h1 id="precio"></h1>
+    <h1 id="letrachic"></h1>
+
+
+</div>
+  
+</body>
+</html>
